@@ -1,12 +1,13 @@
 beautifulsoup4
 docutils
 flake8
-flake8-commas
 isort
-multilint
+black
 Pygments
 pytest-cov
 pytest-django
 pytest
 pytz
 sqlparse
+asgiref
+
