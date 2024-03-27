@@ -34,7 +34,7 @@ setup(
     packages=find_packages(exclude=['tests', 'tests.*']),
     zip_safe=False,
     install_requires=[
-        'Django>=1.11',
+        'Django>=4.2',
     ],
     python_requires='>=3.4',
     license='Apache License 2.0',
@@ -42,10 +42,7 @@ setup(
     classifiers=[
         'Development Status :: 7 - Inactive',
         'Framework :: Django',
-        'Framework :: Django :: 1.11',
-        'Framework :: Django :: 2.0',
-        'Framework :: Django :: 2.1',
-        'Framework :: Django :: 2.2',
+        'Framework :: Django :: 4.2',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'License :: OSI Approved :: Apache Software License',
@@ -53,9 +50,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Software Development',
     ],
 )
